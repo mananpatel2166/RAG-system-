@@ -1,0 +1,7 @@
+rag/
+__pycache__/
+*.pyc
+*.pyo
+uploads/
+*.pkl
+.env
