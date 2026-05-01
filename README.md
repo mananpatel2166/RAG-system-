@@ -29,7 +29,7 @@ Optional: every Q&A pair is logged to **MySQL** if DB credentials are set.
 |------|---------|
 | Python | 3.10+ |
 | pip | latest |
-| (Optional) MySQL | 8.0+ |
+| MySQL | 8.0+ |
 
 ---
 
@@ -107,8 +107,6 @@ The server starts at **http://localhost:5000**.
 rag_system/
 ├── app.py                  # Flask routes and session management
 ├── requirements.txt
-├── templates/
-│   └── index.html          # Single-page frontend
 ├── uploads/                # Temporary PDF storage (gitignored)
 └── rag/
     ├── __init__.py
